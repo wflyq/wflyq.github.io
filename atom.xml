@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>小明的博客</title>
+  
+  <subtitle>你不是一个人！</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-10-06T06:35:03.158Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>你是谁</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test2</title>
+    <link href="http://example.com/posts/13bb8d58/"/>
+    <id>http://example.com/posts/13bb8d58/</id>
+    <published>2022-10-06T06:33:58.000Z</published>
+    <updated>2022-10-06T06:35:03.158Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note simple"><p>默认 提示块标籤</p></div><div class="note blue icon-padding simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p></div><div class="tip "><p><i class="iconfont icon-lianjie"></i></p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note simple&quot;&gt;&lt;p&gt;默认 提示块标籤&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;note blue icon-padding simple&quot;&gt;&lt;i class=&quot;note-icon fas fa-bullhorn&quot;&gt;&lt;/i&gt;&lt;p&gt;2021年</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>x2</title>
+    <link href="http://example.com/posts/6ee8b081/"/>
+    <id>http://example.com/posts/6ee8b081/</id>
+    <published>2022-10-06T06:28:17.000Z</published>
+    <updated>2022-10-06T06:30:22.680Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://example.com/posts/undefined/"/>
+    <id>http://example.com/posts/undefined/</id>
+    <published>2022-10-04T15:14:04.000Z</published>
+    <updated>2022-10-05T03:56:24.122Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.testaop.controller;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestParam;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/hello&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello</span><span class="params">(<span class="meta">@RequestParam(&quot;name&quot;)</span> String name)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/hello1&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello1</span><span class="params">(<span class="meta">@RequestParam(&quot;name&quot;)</span> String name, <span class="meta">@RequestParam(&quot;age&quot;)</span> Integer age, <span class="meta">@RequestParam(&quot;age&quot;)</span> Integer age)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> name + <span class="string">&quot;:&quot;</span> + age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="图片展示"><a href="#图片展示" class="headerlink" title="图片展示"></a>图片展示</h3><p><img src="https://edu-std.oss-cn-hangzhou.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220903121404.jpg" alt="background"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="java的日常" scheme="http://example.com/categories/java%E7%9A%84%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/posts/undefined/"/>
+    <id>http://example.com/posts/undefined/</id>
+    <published>2022-10-04T13:07:55.450Z</published>
+    <updated>2022-10-05T16:00:44.931Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note simple"><p>默认 提示块标籤</p></div><div class="note blue icon-padding simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p></div><div class="tip "><p><i class="iconfont icon-lianjie"></i></p></div><div class="issues-api sites"api="https://api.github.com/repos/volantis-x/examples/issues?sort=updated&state=open&page=1&per_page=100"group="version:版本：^4.0,版本：^3.0,版本：^2.0"></div><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note simple&quot;&gt;&lt;p&gt;默认 提示块标籤&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;note blue icon-padding simple&quot;&gt;&lt;i class=&quot;note-icon fas fa-bullhorn&quot;&gt;&lt;/i&gt;&lt;p&gt;2021年</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
