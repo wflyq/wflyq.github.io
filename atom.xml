@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-06T06:35:03.158Z</updated>
+  <updated>2022-10-07T09:58:19.422Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,70 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>wind</title>
+    <link href="http://example.com/posts/210b54fe/"/>
+    <id>http://example.com/posts/210b54fe/</id>
+    <published>2022-10-07T09:55:01.000Z</published>
+    <updated>2022-10-07T09:58:19.422Z</updated>
+    
+    
+    
+    
+    <category term="🍡LOVE" scheme="http://example.com/categories/%F0%9F%8D%A1LOVE/"/>
+    
+    
+    <category term="ajax" scheme="http://example.com/tags/ajax/"/>
+    
+  </entry>
+  
+  <entry>
     <title>test2</title>
     <link href="http://example.com/posts/13bb8d58/"/>
     <id>http://example.com/posts/13bb8d58/</id>
     <published>2022-10-06T06:33:58.000Z</published>
-    <updated>2022-10-06T06:35:03.158Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note simple"><p>默认 提示块标籤</p></div><div class="note blue icon-padding simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p></div><div class="tip "><p><i class="iconfont icon-lianjie"></i></p></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;note simple&quot;&gt;&lt;p&gt;默认 提示块标籤&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;note blue icon-padding simple&quot;&gt;&lt;i class=&quot;note-icon fas fa-bullhorn&quot;&gt;&lt;/i&gt;&lt;p&gt;2021年</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>x2</title>
-    <link href="http://example.com/posts/6ee8b081/"/>
-    <id>http://example.com/posts/6ee8b081/</id>
-    <published>2022-10-06T06:28:17.000Z</published>
-    <updated>2022-10-06T06:30:22.680Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://example.com/posts/undefined/"/>
-    <id>http://example.com/posts/undefined/</id>
-    <published>2022-10-04T15:14:04.000Z</published>
-    <updated>2022-10-05T03:56:24.122Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.testaop.controller;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.GetMapping;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RequestParam;</span><br><span class="line"><span class="keyword">import</span> org.springframework.web.bind.annotation.RestController;</span><br><span class="line"></span><br><span class="line"><span class="meta">@RestController</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloController</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/hello&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello</span><span class="params">(<span class="meta">@RequestParam(&quot;name&quot;)</span> String name)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/hello1&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">hello1</span><span class="params">(<span class="meta">@RequestParam(&quot;name&quot;)</span> String name, <span class="meta">@RequestParam(&quot;age&quot;)</span> Integer age, <span class="meta">@RequestParam(&quot;age&quot;)</span> Integer age)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> name + <span class="string">&quot;:&quot;</span> + age;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="图片展示"><a href="#图片展示" class="headerlink" title="图片展示"></a>图片展示</h3><p><img src="https://edu-std.oss-cn-hangzhou.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20220903121404.jpg" alt="background"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
-    <category term="java的日常" scheme="http://example.com/categories/java%E7%9A%84%E6%97%A5%E5%B8%B8/"/>
-    
-    
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/posts/undefined/"/>
-    <id>http://example.com/posts/undefined/</id>
-    <published>2022-10-04T13:07:55.450Z</published>
-    <updated>2022-10-05T16:00:44.931Z</updated>
+    <updated>2022-10-07T09:29:33.539Z</updated>
     
     <content type="html"><![CDATA[<div class="note simple"><p>默认 提示块标籤</p></div><div class="note blue icon-padding simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p></div><div class="tip "><p><i class="iconfont icon-lianjie"></i></p></div><div class="issues-api sites"api="https://api.github.com/repos/volantis-x/examples/issues?sort=updated&state=open&page=1&per_page=100"group="version:版本：^4.0,版本：^3.0,版本：^2.0"></div><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -94,6 +52,49 @@
     
     
     
+    <category term="🍡java的日常" scheme="http://example.com/categories/%F0%9F%8D%A1java%E7%9A%84%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    
+    <category term="Spring" scheme="http://example.com/tags/Spring/"/>
+    
+    <category term="html" scheme="http://example.com/tags/html/"/>
+    
+    <category term="SpringClound" scheme="http://example.com/tags/SpringClound/"/>
+    
+    <category term="CSS" scheme="http://example.com/tags/CSS/"/>
+    
+    <category term="JS" scheme="http://example.com/tags/JS/"/>
+    
+    <category term="jquery" scheme="http://example.com/tags/jquery/"/>
+    
+    <category term="linux" scheme="http://example.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>x2</title>
+    <link href="http://example.com/posts/6ee8b081/"/>
+    <id>http://example.com/posts/6ee8b081/</id>
+    <published>2022-10-06T06:28:17.000Z</published>
+    <updated>2022-10-07T09:54:32.838Z</updated>
+    
+    <content type="html"><![CDATA[<div class="note warning simple"><p>最新版butterfly标签支持引用fontawesome V5图标，效果上已经优于volantis的note标签。故不再额外引入volantis的note样式。做样式适配好麻烦的啊，能偷懒就偷懒吧</p></div><div class="note blue icon-padding simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p></div><ol><li>带 <u>下划线</u> 的文本</li><li>带 <emp>着重号</emp> 的文本</li><li>带 <wavy>波浪线</wavy> 的文本</li><li>带 <del>删除线</del> 的文本</li><li>键盘样式的文本 <kbd>command</kbd> + <kbd>D</kbd></li><li>密码样式的文本：<psw>这里没有验证码</psw></li></ol><div class="note simple"><p>默认 提示块标签</p></div><div class="note default simple"><p>default 提示块标签</p></div><div class="note primary simple"><p>primary 提示块标签</p></div><div class="note blue icon-padding modern"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p></div><div class="note pink icon-padding modern"><i class="note-icon fas fa-car-crash"></i><p>小心开车 安全至上</p></div><div class="tip info"><p>info</p></div><div class="tip warning faa-horizontal animated"><p>warning</p></div><div class="note orange icon-padding flat"><i class="note-icon fas fa-exclamation-circle"></i><p>warning 提示块标签</p></div><div class="note warning flat"><p>以下是<code>butterfly</code>主题的note写法。</p></div><details class="folding-tag" cyan open><summary> 查看默认打开的折叠框 </summary>              <div class='content'>              <p>1.安装插件,在博客根目录[Blogroot]下打开终端，运行以下指令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-butterfly-swiper-anzhiyu --save</span><br></pre></td></tr></table></figure><br>2.添加配置信息，以下为写法示例 在站点配置文件_config.yml或者主题配置文件_config.butterfly.yml中添加<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">swiper:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 开关</span></span><br><span class="line">    <span class="attr">randomenable:</span> <span class="literal">true</span> <span class="comment"># 人潮汹涌开关</span></span><br><span class="line">    <span class="attr">priority:</span> <span class="number">5</span> <span class="comment">#过滤器优先权</span></span><br><span class="line">    <span class="attr">enable_page:</span> <span class="string">/</span> <span class="comment"># 应用页面</span></span><br><span class="line">    <span class="attr">timemode:</span> <span class="string">date</span> <span class="comment">#date/updated</span></span><br><span class="line">    <span class="attr">layout:</span> <span class="comment"># 挂载容器类型</span></span><br><span class="line">      <span class="attr">type:</span> <span class="string">id</span></span><br><span class="line">      <span class="attr">name:</span> <span class="string">recent-posts</span></span><br><span class="line">      <span class="attr">index:</span> <span class="number">1</span></span><br><span class="line">    <span class="attr">default_descr:</span> <span class="string">再怎么看我也不知道怎么描述它的啦！</span></span><br><span class="line">    <span class="attr">swiper_css:</span> <span class="string">https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu/lib/swiper.min.css</span> <span class="comment">#swiper css依赖</span></span><br><span class="line">    <span class="attr">swiper_js:</span> <span class="string">https://cdn.cbd.int/anzhiyu-blog@1.1.6/js/swiper.min.js</span> <span class="comment">#swiper js依赖 #swiper js依赖</span></span><br><span class="line">    <span class="attr">custom_css:</span> <span class="string">https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu/lib/swiperstyle.css</span> <span class="comment"># 适配主题样式补丁</span></span><br><span class="line">    <span class="attr">custom_js:</span> <span class="string">https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu/lib/swiper_init.js</span> <span class="comment"># swiper初始化方法</span></span><br><span class="line">    <span class="attr">gsap_js:</span> <span class="string">https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js</span> <span class="comment"># gsap依赖 随机逛逛依赖</span></span><br><span class="line">    <span class="attr">people_js:</span> <span class="string">https://cdn.cbd.int/hexo-butterfly-swiper-anzhiyu/js/people/people.js</span> <span class="comment"># 随机逛逛js</span></span><br></pre></td></tr></table></figure></p>              </div>            </details><p>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</p><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">第一个Tab</button></li><li class="tab"><button type="button" data-href="#test4-2"><i class="fab fa-apple-pay" style="text-align: center;"></i></button></li><li class="tab"><button type="button" data-href="#test4-3"><i class="fas fa-bomb"></i>炸弹</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><p><strong>tab名字为第一个Tab</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><p><strong>只有图标 没有Tab名字</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-3"><p><strong>名字+icon</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;note warning simple&quot;&gt;&lt;p&gt;最新版butterfly标签支持引用fontawesome V5图标，效果上已经优于volantis的note标签。故不再额外引入volantis的note样式。做样式适配好麻烦的啊，能偷懒就偷懒吧&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="🍡生活" scheme="http://example.com/categories/%F0%9F%8D%A1%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="Java" scheme="http://example.com/tags/Java/"/>
     
   </entry>
   
