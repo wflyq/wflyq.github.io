@@ -35,7 +35,7 @@
   
   .iconfont {
     font-family: 'iconfont' !important;
-    font-size: 36px;
+    font-size: 3em;
     /* 可以定义图标大小 */
     font-style: normal;
     -webkit-font-smoothing: antialiased;
@@ -163,6 +163,8 @@
   /* 分页页面 */
   div#page {
     background: rgba(255, 255, 255, 0.9);
+    /* width:1200px !important;
+    font-size: 18px; */
   }
   
   /* 归档页面 */
