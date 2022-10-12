@@ -4,12 +4,12 @@
   font-display: swap;
   font-weight: lighter;
 } */
-/* @font-face {
+@font-face {
     font-family: ZhuZiAYuanJWD;
     src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
     font-display: swap;
     font-weight: lighter;
-  } */
+  }
   @font-face {
     font-family: "iconfont"; /* Project id 3687739 */
     /* Color fonts */
@@ -465,3 +465,48 @@
     opacity: .4;
     margin-left: 2px;
   }
+
+  /* 版权 */
+  .layout #post .post-copyright {
+    border: 1px solid #1478d2;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  #post .post-copyright:before {
+    content: none;
+  }
+
+  #post > div.post-copyright > div.post-copyright_img > img{
+    position: absolute;
+    width: 95px;
+    right: 0;
+    top: 11px;
+    opacity: 0.7;
+  }
+
+  @media screen and (min-width:900px) and (max-width:1107px){
+    #post > div.post-copyright > div.post-copyright_img > img{
+      top: 40px;
+    }
+  }
+
+  @media screen and (min-width:770px) and (max-width:829px){
+    #post > div.post-copyright > div.post-copyright_img > img{
+      top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 758px) {
+    #post > div.post-copyright > div.post-copyright_img > img{
+      top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    #post > div.post-copyright > div.post-copyright_img > img{
+      top: 70px;
+    }
+  }
+
+ 
