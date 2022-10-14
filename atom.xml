@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-13T14:02:12.173Z</updated>
+  <updated>2022-10-14T15:03:51.940Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>动态规划的视频推荐</title>
+    <link href="http://example.com/posts/a80d0031/"/>
+    <id>http://example.com/posts/a80d0031/</id>
+    <published>2022-10-14T14:47:56.000Z</published>
+    <updated>2022-10-14T15:03:51.940Z</updated>
+    
+    <content type="html"><![CDATA[<p>学习动态规划的朋友，可以看下b站的这个系列的视频，这位老师讲解的动态规划是我看过的视频中较完善的，而且简洁明了，且将学习与实践统一。<br><div class="site-card-group"><a class="site-card" href="https://www.bilibili.com/video/BV1EL411s7jo/?spm_id_from=333.851.header_right.fav_list.click&vd_source=b79fac9de31184110219ade50281f62e"><div class="img"><img src="/img/趣学算法/screenshot.webp"/></div><div class="info"><img src="/img/趣学算法/avatar.webp"/><span class="title">趣学算法</span><span class="desc">很厉害的up主</span></div></a></div></p><style>  #web_bg{    background: url(/img/文章背景图片/063806f9c8ebca10c7af6c6788b84ba3.jpg) center center / cover no-repeat local;  }</style>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;学习动态规划的朋友，可以看下b站的这个系列的视频，这位老师讲解的动态规划是我看过的视频中较完善的，而且简洁明了，且将学习与实践统一。&lt;br&gt;&lt;div class=&quot;site-card-group&quot;&gt;&lt;a class=&quot;site-card&quot; href=&quot;https://www</summary>
+      
+    
+    
+    
+    <category term="🍡算法" scheme="http://example.com/categories/%F0%9F%8D%A1%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>关于如何更改各个页面的整个背景</title>
